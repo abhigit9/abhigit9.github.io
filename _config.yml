@@ -1,0 +1,10 @@
+include:
+  - .well-known
+```
+5. Click **Commit changes**
+
+---
+
+This tells Jekyll to include the `.well-known` folder when building the site. Wait about 2 minutes for it to redeploy, then try again:
+```
+https://abhigit9.github.io/.well-known/appspecific/com.tesla.3p.public-key.pem
